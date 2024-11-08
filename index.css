@@ -1,0 +1,42 @@
+*{
+    background-color: rgb(45, 185, 255);
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: whItE;
+    margin:-1px;   
+}
+header h1{
+    font-family: 190px;
+}
+header h2{
+    margin: 20px;
+}
+header{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+body{
+    background-color: rgb(33, 33, 33);
+    height: 1000px;
+}
+nav{
+    display: flex;
+    background-color: white;
+    height: 50px;
+}
+#contenedor{
+    align-items: center;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-gap: 10px;
+    background-color: rgb(33, 33, 33);
+
+}
+.cuadrado{
+    border-radius: 20%;
+    margin: 10px;
+    height: 180px;
+    width: 180px;
+}
